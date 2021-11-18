@@ -6,9 +6,10 @@
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
+    "allowJs": false, // Не позволяем писать обычный JS 
+    "skipLibCheck": true, // Пропускаем проверку у библиотек в node_modules
+    "strict": false, // Более жесткий режим TypeScript
+    "strictPropertyInitialization": false, // Не нужно будет инициализовать свойства каждого класса
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
