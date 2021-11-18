@@ -8,7 +8,7 @@
     ],
     "allowJs": false, // Не позволяем писать обычный JS 
     "skipLibCheck": true, // Пропускаем проверку у библиотек в node_modules
-    "strict": false, // Более жесткий режим TypeScript
+    "strict": true, // Более жесткий режим TypeScript
     "strictPropertyInitialization": false, // Не нужно будет инициализовать свойства каждого класса
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
