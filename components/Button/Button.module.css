@@ -35,3 +35,27 @@
 	border-color: var(--primary);
 	background-color: var(--primary);
 }
+
+.arrow {
+	display: inline-block;
+
+	margin-left: 10px;
+}
+
+.down {
+	transition: all 0.2s;
+	transform: rotate(90deg);
+}
+
+.primary svg {
+	fill: var(--white);
+}
+
+.ghost svg {
+	transition: all 0.2s;
+	fill: var(--black);
+}
+
+.ghost:hover svg {
+	fill: var(--white);
+}
